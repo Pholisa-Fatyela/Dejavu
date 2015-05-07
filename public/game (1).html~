@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <HEAD>
-
+<title>Level 1</title>
 <style type="text/css">
 body{
      background-image:url("./arcade84.jpg");
@@ -68,7 +68,7 @@ body{
 
 <input type="button" value="Get score" onClick="getScore(this.form)">
 <input type="reset" value="Clear answers">
-<a href="./game (2).html"><input type="button" value="Next level"></a>
+<a href="./game(2).html"><input type="button" value="Next level"></a>
 <a href="./index.html"><input type="button" value="Quit"></a>
 <p> Score = <strong><input class="bgclr" type="text" size="5" name="percentage" disabled></strong>
 </form>
