@@ -10,7 +10,7 @@ body{
      background-size:120%;
 }
 #container{
-          height:980px;
+          height:960px;
           width:510px;
           border:5px solid black;
           border-radius: 25px;
