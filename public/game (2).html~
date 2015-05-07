@@ -93,9 +93,9 @@ function getScore(form) {
 
 3. What letter is full of water?
 
-  <li><input type="radio" name="C" value="">C</li>
-  <li><input type="radio" name="H" value="">H</li>
-  <li><input type="radio" name="O" value="">O</li>
+  <li><input type="radio" name="q3" value="C">C</li>
+  <li><input type="radio" name="q3" value="H">H</li>
+  <li><input type="radio" name="q30" value="O">O</li>
 
 4. What is it that everybody does at the same time?
 
