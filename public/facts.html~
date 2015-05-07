@@ -11,6 +11,7 @@ body{
 .bgclr {background-color: white; color: black; font-weight: bold;}
 
 #container{
+          font-family: "Times New Roman", Times, serif;
           height:900px;
           width:500px;
           border:5px solid black;
@@ -28,13 +29,14 @@ body{
 
 </HEAD>
 <body>
-<embed src="Commando_main_theme_by_ArcadeTunes.com.mp3" autostart="true" loop="true"
-width="2" height="0">
-</embed>
-<noembed>
-<bgsound src="Commando_main_theme_by_ArcadeTunes.com.mp3" autostart="true" loop="infinite">
-</noembed>
 <div id="container">
+<h2>Fun Facts</h2>
+<p>An adding machine was a class of mechanical calculator, usually specialized for bookkeeping calculations. In the United States, the earliest adding machines were usually built to read in dollars and cents. </p>
+
+<p>Blaise Pascal and Wilhelm Schickard were the two original inventors of the mechanical calculator in 1642;[1] For Pascal this was an adding machine that could perform additions and subtractions directly and multiplication and divisions by repetitions, whilst Schickard's machine, invented several decades earlier was less functionally efficient but was supported by a mechanised form of multiplication tables.</p>
+<p>A prime number is a whole number greater than 1, whose only two whole-number factors are 1 and itself. The first few prime numbers are 2, 3, 5, 7, 11, 13, 17, 19, 23, and 29.</p>
+
+<p>Circumference is the linear distance around the edge of a closed curve or circular object.[1] The circumference of a circle is of special importance in geometry and trigonometry. Informally "circumference" may also refer to the edge itself rather than to the length of the edge</p>
 <a href="./game (1).html"><input type="button" value="Skip"></a>
 </body>
 </html>
