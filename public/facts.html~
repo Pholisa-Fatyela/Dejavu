@@ -35,6 +35,6 @@ width="2" height="0">
 <bgsound src="Commando_main_theme_by_ArcadeTunes.com.mp3" autostart="true" loop="infinite">
 </noembed>
 <div id="container">
-<a href="./game (2).html"><input type="button" value="Next level"></a>
+<a href="./game (1).html"><input type="button" value="Skip"></a>
 </body>
 </html>

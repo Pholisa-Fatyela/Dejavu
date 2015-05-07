@@ -36,26 +36,26 @@ body{
 
   <li><input class="radio" type="radio" name="q1" value="National Sience Council">National Sience Council</li>
   <li><input class="radio" type="radio" name="q1" value="National Senior Certificate">National Senior Certificate</li>
-  <li><input class="radio" type="radio" name="q1" value="National Soccer Certificate">National Soccer Certificate</li>
+  <li><input class="radio" type="radio" name="q1" value="National Soccer Certificate">National Soccer Certificate</li><br>
 
 
 2. What does NCS stand for?
 
   <li><input type="radio" name="q2" value="National Curriculum Statement">National Curriculum Statement</li>
   <li><input type="radio" name="q2" value="National Candidate Support">National Candidate Support</li>
-  <li><input type="radio" name="q2" value="New Curriculum Statement">New Curriculum Statement</li>
+  <li><input type="radio" name="q2" value="New Curriculum Statement">New Curriculum Statement</li><br>
 
 3. NCS requires all learners in Grade - to - to take seven subjects.
 
   <li><input type="radio" name="q3" value="1 to 7">1 to 7</li>
   <li><input type="radio" name="q3" value="0 to 3">0 to 3</li>
-  <li><input type="radio" name="q3" value="10 to 12">10 to 12</li>
+  <li><input type="radio" name="q3" value="10 to 12">10 to 12</li><br>
 
 4. To obtain an NSC a candidate must, depending on the minimum requirements acheive either - or - in six subjects.
 
   <li><input type="radio" name="q4" value="39% or 29%">39% or 29%</li>
   <li><input type="radio" name="q4" value="40% or 67.3%">40% or 67.3%</li>
-  <li><input type="radio" name="q4" value="40% or 30%">40% or 30%</li>
+  <li><input type="radio" name="q4" value="40% or 30%">40% or 30%</li><br>
 
 5. How much time is needed for a learner to complete a three hundred mark exam paper?
 
@@ -102,10 +102,10 @@ document.forms[0].reset();
 var radioButtons = document.querySelectorAll(".radio");
   for (var i = 0; i < radioButtons.length; i++) {
         // add click handler
-        radioButtons[i].onclick = function() {
+        /*radioButtons[i].onclick = function() {
             //alert("!!");
            
-            getScore(document.forms[0]);
+            getScore(document.forms[0]);*/
           
 	    return true;
 	 	
