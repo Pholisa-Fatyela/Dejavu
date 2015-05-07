@@ -5,7 +5,7 @@
 <style>
 body{
     background-image:url("./game.png");
-    
+    background-size:cover;
     background-repeat:no-repeat;	 
 }
 #container{

@@ -11,7 +11,7 @@ body{
 .bgclr {background-color: white; color: black; font-weight: bold;}
 
 #container{
-          height:800px;
+          height:900px;
           width:500px;
           border:5px solid black;
           border-radius: 25px;
@@ -33,11 +33,11 @@ body{
 <form name="quiz">
 <h2>LEVEL 1</h2>
 1. What does NSC stand for?
-<ul style="margin-top: 1pt">
+
   <li><input class="radio" type="radio" name="q1" value="National Sience Council">National Sience Council</li>
   <li><input class="radio" type="radio" name="q1" value="National Senior Certificate">National Senior Certificate</li>
   <li><input class="radio" type="radio" name="q1" value="National Soccer Certificate">National Soccer Certificate</li>
-</ul>
+
 
 2. What does NCS stand for?
 <ul style="margin-top: 1pt">
