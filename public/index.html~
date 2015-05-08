@@ -82,6 +82,7 @@ a{  color: #ab0a0c;
 </div>
 <br>
 <br>
+<br>
 <div id="container">
 <a href="./facts.html"><button id="test" onclick="myFunction()" >Start game</button></a>
 <br>

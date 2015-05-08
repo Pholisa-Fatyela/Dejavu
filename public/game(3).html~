@@ -81,36 +81,39 @@ function getScore(form) {
 <h2>LEVEL 3</h2>
 <form name="quiz">
 1. Who Invented the Light Bulb? 
-<ul style="margin-top: 1pt">
+
   <li><input type="radio" name="q1" value="Thomas Alva Edison ">Thomas Alva Edison </li>
   <li><input type="radio" name="q1" value="Eddy Murphy">Eddy Murphy.</li>
-  <li><input type="radio" name="q1" value="Christopher Lumberg">Christopher Lumberg</li>
-</ul>
+  <li><input type="radio" name="q1" value="Christopher Lumberg">Christopher Lumberg</li><br/>
 
-2.In which year was the radio invented and by whom?
-<ul style="margin-top: 1pt">
+
+2. In which year was the radio invented and by whom?
+
   <li><input type="radio" name="q2" value="In 1819 by Nelson Mandela">In 1819 by Nelson Mandela</li>
   <li><input type="radio" name="q2" value="In 1895 Gugliemo Marconi">In 1895 by Gugliemo Marconi</li>
-  <li><input type="radio" name="q2" value="In 1731 by Nelson Edison ">In 1731 by Nelson Edison</li>
-</ul>
+  <li><input type="radio" name="q2" value="In 1731 by Nelson Edison ">In 1731 by Nelson Edison</li><br/>
+
+
 3. Who invented the laptop and in which year?
-<ul style="margin-top: 1pt">
+
   <li><input type="radio" name="q3" value="Adam Osborne in 1981">Adam Osborne in 1981</li>
   <li><input type="radio" name="q3" value="Lumbert Ross in 1970">Lumbert Ross in 1970</li>
-  <li><input type="radio" name="q3" value="Angelina Jolie in 1996">Angelina Jolie in 1996</li>
-</ul>
-4.In which year was the first video game,the ping-pong arcade game released?
-<ul style="margin-top: 1pt">
+  <li><input type="radio" name="q3" value="Angelina Jolie in 1996">Angelina Jolie in 1996</li><br/>
+
+
+4. In which year was the first video game,the ping-pong arcade game released?
+
   <li><input type="radio" name="q4" value="In 1995">In 1995</li>
   <li><input type="radio" name="q4" value="in 1972">in 1972</li>
-  <li><input type="radio" name="q4" value="In 1983">In 1983</li>
-</ul>
-5.Who was responsible for the generation and development of the very first cell phone.
-<ul style="margin-top: 1pt">
+  <li><input type="radio" name="q4" value="In 1983">In 1983</li><br/>
+
+
+5. Who was responsible for the generation and development of the very first cell phone?
+
   <li><input type="radio" name="q5" value=" Martin Cooper"> Martin Cooper</li>
   <li><input type="radio" name="q5" value="George Avakian"> George Avakian</li>
-  <li><input type="radio" name="q5" value="Martin Luther King Jr">Martin Luther King Jr</li>
-</ul>
+  <li><input type="radio" name="q5" value="Martin Luther King Jr">Martin Luther King Jr</li><br/>
+
 
 <input type="button" value="Get score" onClick="getScore(this.form)">
 <input type="reset" value="Clear answers">

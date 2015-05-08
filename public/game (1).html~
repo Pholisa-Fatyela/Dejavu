@@ -6,7 +6,7 @@
 body{
      background-image:url("./arcade84.jpg");
      background-repeat:no-repeat;
-     background-size:120%;
+     background-size:180%;
 }
 .bgclr {background-color: white; color: black; font-weight: bold;}
 
@@ -68,7 +68,7 @@ body{
 
 <input type="button" value="Get score" onClick="getScore(this.form)">
 <input type="reset" value="Clear answers">
-<a href="./game(2).html"><input type="button" value="Next level"></a>
+<a href="./game (2).html"><input type="button" value="Next level"></a>
 <a href="./index.html"><input type="button" value="Quit"></a>
 <p> Score = <strong><input class="bgclr" type="text" size="5" name="percentage" disabled></strong>
 </form>

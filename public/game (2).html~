@@ -7,20 +7,20 @@
 body{
      background-image:url("./arcade84.jpg");
      background-repeat:no-repeat;
-     background-size:120%;
+     background-size:180%;
 }
 #container{
           font-family: "Times New Roman",Times, serif;
-          height:680px;
-          width:510px;
+          height:900px;
+          width:500px;
           border:5px solid black;
           border-radius: 25px;
           background-color:#8A0A8A;
-          
           margin-left:auto;
           margin-right:auto;
           font-size:20px;
           color:black;
+text-align: left;
        
          
 }
@@ -82,32 +82,32 @@ function getScore(form) {
 
   <li><input type="radio" name="q1" value="Carat">Carat</li>
   <li><input type="radio" name="q1" value="Carrot">Carrot</li>
-  <li><input type="radio" name="q1" value="Karat">Karat</li>
+  <li><input type="radio" name="q1" value="Karat">Karat</li><br/>
 
 
 2. What number grows?
 
   <li><input type="radio" name="q2" value="10">10</li>
   <li><input type="radio" name="q2" value="3">3</li>
-  <li><input type="radio" name="q2" value="5">5</li>
+  <li><input type="radio" name="q2" value="5">5</li><br/>
 
 3. What letter is full of water?
 
   <li><input type="radio" name="q3" value="C">C</li>
   <li><input type="radio" name="q3" value="H">H</li>
-  <li><input type="radio" name="q30" value="O">O</li>
+  <li><input type="radio" name="q3" value="O">O</li><br/>
 
 4. What is it that everybody does at the same time?
 
   <li><input type="radio" name="q4" value="Change">Change</li>
   <li><input type="radio" name="q4" value="Eating">Eating</li>
-  <li><input type="radio" name="q4" value="Growing older">Growing older</li>
+  <li><input type="radio" name="q4" value="Growing older">Growing older</li><br/>
 
 5. What gets wet when drying? 
 
   <li><input type="radio" name="q5" value="Clothes">Clothes</li>
   <li><input type="radio" name="q5" value="A Towel">A Towel</li>
-  <li><input type="radio" name="q5" value="A Dryer">A Dryer</li>
+  <li><input type="radio" name="q5" value="A Dryer">A Dryer</li><br/>
 
 
 <input type="button" value="Get score" onClick="getScore(this.form)">

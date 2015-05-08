@@ -37,6 +37,7 @@ body {
 <li>If a player answers the quizard questions correctly, well done to you.</li>
 <li>Once a player complete each level of the quizard question, the player advances to next level.</li>
 <li>incorrect answers puts the player to a fire stand "RESTART THE LEVEL".</li>
+<a href="./index.html"><button>Back</button></a>
 </div>
 </body>
 </html>
