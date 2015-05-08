@@ -43,8 +43,8 @@ var answers = new Array(5);
 answers[0] = "Thomas Alva Edison ";
 answers[1] = "In 1895 by Gugliemo Marconi";
 answers[2] = "Adam Osborne in 1981";
-answers[3] = "in 1972";
-answers[4] = " Martin Cooper";
+answers[3] = "In 1972";
+answers[4] = "Martin Cooper";
 
 // Do not change anything below here ...
 function getScore(form) {
@@ -104,7 +104,7 @@ function getScore(form) {
 4. In which year was the first video game,the ping-pong arcade game released?
 
   <li><input type="radio" name="q4" value="In 1995">In 1995</li>
-  <li><input type="radio" name="q4" value="in 1972">in 1972</li>
+  <li><input type="radio" name="q4" value="In 1972">In 1972</li>
   <li><input type="radio" name="q4" value="In 1983">In 1983</li><br/>
 
 
